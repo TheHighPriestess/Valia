@@ -93,10 +93,19 @@ h3 {
 
 }
 
+.navbar-default .navbar-nav>li>a.greek {
+  font-weight: 900;
+}
 
+.navbar-default .navbar-nav>li>a.greek:hover {
+  color: #CDDC39;
+}
 
 footer {
     margin: 50px 0;
 }
 
+.fa:hover {
+  color: #CDDC39;
+}
 

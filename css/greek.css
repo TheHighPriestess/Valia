@@ -1,0 +1,39 @@
+
+
+body {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 100;
+	
+}
+
+h1 {
+	font-size: 3em;
+}
+
+li {
+	font-size: .90em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+p.lead {
+	font-size: 1.4em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #212121;
+    font-size: 1.4em;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+
+div.footer-text p {
+	font-size: .85em;
+	letter-spacing: 1px;
+	margin-top: -25px;
+}
+
+
