@@ -42,9 +42,20 @@ address {
 
 .navbar-default .navbar-nav>li>a {
     color: #212121;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 300;
     background-color: transparent;
+}
+
+
+
+
+.navbar-default .navbar-nav>li>a.greek {
+  font-weight: 900;
+}
+
+.navbar-default .navbar-nav>li>a.greek:hover {
+  color: #CDDC39;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -68,7 +79,6 @@ ul.prices {
 
 
 
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -85,4 +95,8 @@ ul.prices {
 
 .address {
   padding-bottom: 30px;
+}
+
+.fa:hover {
+  color: #CDDC39;
 }
