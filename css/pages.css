@@ -64,6 +64,11 @@ address {
     font-weight: bold;
 }
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+   font-weight: bold;
+    background-color: transparent;
+}
+
 ul.prices {
   list-style: none;
   padding-left: 0;
