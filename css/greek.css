@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.2em;
 }
 
 li {
@@ -20,6 +20,10 @@ p {
 
 p.lead {
 	font-size: 1.4em;
+}
+
+.saloningreek {
+	font-size: .85em;
 }
 
 .navbar-default .navbar-nav>li>a {
