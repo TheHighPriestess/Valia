@@ -47,7 +47,7 @@ body {
 }
 
  .footer-text {
-  font-size: 1.25em;
+  font-size: 1em;
   margin-top: -15px;
 }
 
@@ -102,9 +102,16 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
+address {
+  font-size: 1.2em;
+}
+
 /* ===MISCELLANEOUS=== */
 
 .fa:hover {
   color: #ab47bC;
 }
 
+.valiaphoto {
+  margin-bottom: 25px;
+}
