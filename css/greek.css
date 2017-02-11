@@ -1,13 +1,7 @@
 
-
-body {
-	font-family: 'Comfortaa', cursive;
-	font-weight: 100;
-	
-}
-
 h1 {
-	font-size: 3.2em;
+  font-size: 3.2em;
+  font-family: 'Roboto Slab', serif;
 }
 
 li {
@@ -22,20 +16,16 @@ p.lead {
 	font-size: 1.4em;
 }
 
-.saloningreek {
-	font-size: .85em;
-}
+
 
 .navbar-default .navbar-nav>li>a {
     color: #212121;
     font-size: 1.25em;
     font-weight: 300;
-    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-   font-weight: bold;
-    background-color: transparent;
+   font-weight: bold;  
 }
 
 
