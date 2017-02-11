@@ -1,92 +1,110 @@
+/* COLORS
+    - background color #222
+    - body text #fff
+    - page titles (hair, face etc), specials background #ab47bC (purple)
+    - navbar background #fff
+    - navbar border #222
+    - navbar active, private lessons #4db6ac (teal)
+    - navbar link text #222
+*/    
+
+/* FONTS
+    - body text Roboto sans-serif
+    - titles (h1, h2 etc.) Roboto Slab serif
+*/
+
+/* ===PRIMARY LAYOUT STRUCTURE=== */
+
 body {
-    padding-top: 70px; 
-  	font-family: 'Roboto', sans-serif;
-  	background-color: #222;
+    background-color: #222;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-top: 70px;     
 }
 
-h1 {
-  font-size: 3.2em;
-  font-family: 'Roboto Slab', serif;
-}
-
-.title {
-  color: #AB47BC;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
-}
-.portfolio-item {
-    margin-bottom: 25px;
-}
-
-.portfolio-item img{
-    width:100%;
-    height: auto;
- }
+/* ===SECONDARY LAYOUT STRUCTURE=== */
 
 .navbar-default {
     background-color: #fff;
-    border-color: #4db6ac;
+    border-color: #222;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #4db6ac;
     color: #fff;
-    background-color: #4db6ac
-    ;
     font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #212121;
-    font-size: 1.25em;
-    font-weight: 300;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a.greek {
-  font-weight: 900;
-}
-
-.navbar-default .navbar-nav>li>a.greek:hover {
-  color: #CDDC39;
-}
-
-
-h1 {
-  font-size: 3em;
-  font-weight: 100;
-  letter-spacing: 2px;
-  color: #fff;
-}
-
-h2,h3,h4,ul,p {
-  color: #fff;
-}
-
-h3 {
-  font-weight: 700;
-  color: #000;
-  margin-bottom: -30px
-}
-
-
-.footer-text {
-	font-size: 1.25em;
-	margin-top: -15px;
-
+    color: #222;
+    font-size: 1em;
+    font-weight: 300;   
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
    font-weight: bold;
-    background-color: transparent;
 }
 
+ .footer-text {
+  font-size: 1.25em;
+  margin-top: -15px;
+}
 
 footer {
     margin: 50px 0;
 }
 
+/* ===TERTIARY LAYOUT STRUCTURE=== */
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.portfolio-item img{
+    height: auto;
+    width:100%;  
+ }
+
+ .special {
+  background-color: #ab47bC;
+  margin-top: 25px;
+  padding-bottom: 10px;
+ }
+
+ .lessons {
+  background-color: #4db6ac;
+  padding-bottom: 10px;
+ }
+
+/* ===TEXT=== */
+
+p,li {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.pagetitle {
+  color: #ab47bC; 
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ===MISCELLANEOUS=== */
+
 .fa:hover {
-  color: #CDDC39;
+  color: #ab47bC;
 }
 
