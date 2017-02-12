@@ -68,12 +68,14 @@ footer {
 
  .special {
   background-color: #ab47bC;
-  margin-top: 25px;
+  border: 1px solid #fff;
+  margin: 25px 0px;
   padding-bottom: 10px;
  }
 
  .lessons {
   background-color: #4db6ac;
+  border: 1px solid #fff;
   padding-bottom: 10px;
  }
 
@@ -103,15 +105,28 @@ h2 {
 }
 
 address {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
-/* ===MISCELLANEOUS=== */
+/* ===GENERAL STYLES=== */
 
 .fa:hover {
   color: #ab47bC;
 }
 
-.valiaphoto {
-  margin-bottom: 25px;
+.img-thumbnail{
+  background-color:transparent;
+  border-radius: 0;
+  border: 1px solid #444;
 }
+
+.btn {
+  background-color: #4db6ac;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.btn:hover{
+  background-color: #ab47bC;
+}
+
