@@ -18,8 +18,8 @@
 body {
     background-color: #222;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     padding-top: 70px;     
 }
 
@@ -86,7 +86,6 @@ p,li {
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
   font-size: 3em;
   font-weight: 100;
   letter-spacing: 2px;
@@ -101,7 +100,6 @@ h2 {
 
 .pagetitle {
   color: #ab47bC; 
-  font-family: 'Roboto', sans-serif;
 }
 
 address {
