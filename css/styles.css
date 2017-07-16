@@ -23,6 +23,15 @@ body {
     padding-top: 70px;     
 }
 
+a{
+  color: #fff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #cacaca;
+}
+
 /* ===SECONDARY LAYOUT STRUCTURE=== */
 
 .navbar-default {
